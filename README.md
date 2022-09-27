@@ -22,7 +22,7 @@
 ---
 
 # Contribution Rules
-- You should make only one contribution to each folder :)
+- **You should make only one contribution to each folder :)**
 - Pull requests can be submitted to any opted-in repository on GitHub or GitLab.
 - The pull request must contain commits you made yourself.
 - If a maintainer reports your pull request as spam, it will not be counted toward your participation in Hacktoberfest.
