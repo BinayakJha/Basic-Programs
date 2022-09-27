@@ -2,7 +2,7 @@
 
 Write a program on any language make sure it should not be any type of algorithm it can be simple but should be workable
 
-**You can only contribute in this folder once only**
+# --> **You can only contribute in this folder twice only**
 
 <p align="center">
     <a href="https://hacktoberfest.com/">
