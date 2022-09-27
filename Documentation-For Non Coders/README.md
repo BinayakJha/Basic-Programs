@@ -1,6 +1,9 @@
 # Contribution Rule for acceptance [For Non Coders]
 
 If you are a non coder then write about yourself in the given **format**.
+
+File name should be your name
+
 <hr>
 
 # Your Name
