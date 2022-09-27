@@ -19,6 +19,7 @@ Write about your educational background in short
 
 Write a Quote
 
+<hr>
 
 <p align="center">
     <a href="https://hacktoberfest.com/">
