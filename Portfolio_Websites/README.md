@@ -6,6 +6,7 @@ After you have made your website then add your name to the contributors file in 
 
 **You can only make One portfolio website in this folder**
 
+Folder Name should be Your Name
 
 <p align="center">
     <a href="https://hacktoberfest.com/">
