@@ -33,7 +33,9 @@ Start Contributing from Oct 1
 - **No Spamming**
 - **Go Through [CONTRIBUTION.md](https://github.com/BinayakJha/Hacktoberfest-2022/blob/main/CONTRIBUTING.md) [very very important]**
 ---
+# Don't forget to star and fork the repo
 
+<img src="https://user-images.githubusercontent.com/69071769/192466637-ec0848e2-e3ee-4402-9f7d-3faabf136b0f.png">
 
 <br><br>
 <a href="https://hacktoberfest.digitalocean.com/">
