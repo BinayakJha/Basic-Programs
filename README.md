@@ -35,14 +35,6 @@ Start Contributing from Oct 1
 ---
 
 
-
-# Contributers Till Now 
-
-| Name           | Github                                                |
-| -------------- | ----------------------------------------------------- |
-
----
-
 <br><br>
 <a href="https://hacktoberfest.digitalocean.com/">
         <img src="https://user-images.githubusercontent.com/69071769/189793536-18141e33-07b3-40fe-8e51-b9b4793d3ee1.png" style="border-radius:8px !important;">
