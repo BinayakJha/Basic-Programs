@@ -18,7 +18,6 @@ Start Contributing from Oct 1
 📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
 <br>
 <br>
-**IMPORTANT  While making pull request dont forget to add your username and Github link in [CONTRIBUTERS.MD](https://github.com/BinayakJha/Hacktoberfest-2022/blob/main/CONTRIBUTERS.MD), so that you name will be shown in the contributers.**
 
 ---
 
