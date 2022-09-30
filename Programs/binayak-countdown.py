@@ -1,5 +1,6 @@
 import time
 
+
 def countdowntimer(time_sec):
     while time_sec:
         mins, secs = divmod(time_sec, 60)
@@ -9,5 +10,7 @@ def countdowntimer(time_sec):
         time_sec -= 1
 
     print("stop")
-#countdown for 30 seconds
+
+
+# countdown for 30 seconds
 countdowntimer(30)
