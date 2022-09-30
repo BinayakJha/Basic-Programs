@@ -2,9 +2,9 @@
 
 Write a program on any language make sure it **should not be any type of algorithm** it **can be simple but should be workable**
 
-# --> You can contribute in this folder twice only in different languages
+# --> You can contribute in this folder twice only with different languages
 
-File Name should be in thise format --> [YourName].[Program Extension]
+File Name should be in thise format --> [YourName][Program Title].[Program Extension]
 
 <p align="center">
     <a href="https://hacktoberfest.com/">
