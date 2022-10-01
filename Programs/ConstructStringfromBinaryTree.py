@@ -1,4 +1,4 @@
-# Python3 program to construct string from binary tree
+# Python program to construct string from binary tree
 
 # A binary tree node has data, pointer to left
 # child and a pointer to right child
