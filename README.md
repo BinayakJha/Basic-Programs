@@ -31,7 +31,6 @@ Start Contributing from Oct 1
 - To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
 - The first 40,000 participants (maintainers and contributors) who complete Hacktoberfest can elect to receive one of two prizes: a tree planted in their name, or the Hacktoberfest 2022 t-shirt.
 - **No Spamming**
-- **Go Through [CONTRIBUTION.md](https://github.com/BinayakJha/Hacktoberfest-2022/blob/main/CONTRIBUTING.md) [very very important]**
 ---
 # Don't forget to star and fork the repo
 
