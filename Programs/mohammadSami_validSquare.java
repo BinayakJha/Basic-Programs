@@ -1,4 +1,3 @@
-
 //https://leetcode.com/problems/valid-perfect-square/
 public class mohammadSami_validSquare {
     public static void main(String[] args) {
