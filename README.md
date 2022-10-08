@@ -11,8 +11,7 @@
 <a href="https://github.com/blogmaker123/Hacktoberfest/graphs/contributors"><img alt="GitHub contributors" src="http://img.shields.io/github/contributors/BinayakJha/Hacktoberfest-2022?color=2b9348"></a>
 
 </div>
-
-Start Contributing from Oct 1
+Got Excluded Sorry
 ---
 
 📢 **Register [here](https://hacktoberfest.digitalocean.com) for Hacktoberfest and make four pull requests (PRs) between October 1st-31st to grab free SWAGS 🔥.**
