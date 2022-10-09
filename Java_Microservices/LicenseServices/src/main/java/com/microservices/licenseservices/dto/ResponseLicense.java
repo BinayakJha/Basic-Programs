@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseLicense {
-    private String response;
-    private String messages;
-    private License data;
+  private String response;
+  private String messages;
+  private License data;
 }

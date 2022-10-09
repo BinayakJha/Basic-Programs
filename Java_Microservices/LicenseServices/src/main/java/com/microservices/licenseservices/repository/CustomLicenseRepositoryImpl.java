@@ -8,15 +8,17 @@ import org.springframework.data.mongodb.core.query.BasicQuery;
 import org.springframework.data.mongodb.core.query.BasicUpdate;
 import org.springframework.data.mongodb.core.query.Criteria;
 
-public class CustomLicenseRepositoryImpl implements CustomLicenseRepository{
+public class CustomLicenseRepositoryImpl implements CustomLicenseRepository {
 
-    @Autowired
-    private MongoTemplate mongoTemplate;
+  @Autowired private MongoTemplate mongoTemplate;
 
-    @Override
-    public License partialUpdate(String licenseKey, String fieldName, Object fieldValue) {
-        License key = mongoTemplate.findAndModify(BasicQuery.query(Criteria.where("licenseKey").is(licenseKey)), BasicUpdate.update(fieldName, fieldValue), FindAndModifyOptions.none(), License.class);
-        return key;
-    }
-
+  @Override
+  public License partialUpdate(String licenseKey, String fieldName,
+                               Object fieldValue) {
+    License key = mongoTemplate.findAndModify(
+        BasicQuery.query(Criteria.where("licenseKey").is(licenseKey)),
+        BasicUpdate.update(fieldName, fieldValue), FindAndModifyOptions.none(),
+        License.class);
+    return key;
+  }
 }

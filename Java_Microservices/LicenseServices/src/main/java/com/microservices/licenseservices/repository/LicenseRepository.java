@@ -6,9 +6,9 @@ import org.springframework.data.mongodb.repository.Query;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface LicenseRepository extends MongoRepository<License, String>, CustomLicenseRepository {
+public interface LicenseRepository
+    extends MongoRepository<License, String>, CustomLicenseRepository {
 
-    @Query("{'licenseKey': ?0 }")
-    License findLicensesByLicenseKey(String licenseKey);
-
+  @Query("{'licenseKey': ?0 }")
+  License findLicensesByLicenseKey(String licenseKey);
 }
