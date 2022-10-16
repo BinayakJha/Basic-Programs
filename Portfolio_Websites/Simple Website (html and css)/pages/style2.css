@@ -1,0 +1,103 @@
+/*-----external css-----*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/*-----navigation bar-----*/
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{ 
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+
+.nav-links ul li a:hover {
+	border: 1px solid white;
+	background: grey;
+	transition: 1s;
+}
+.bg_image
+		{
+			background-image: url('images/first2.jpg');
+		}
+/*-----footer and logo-----*/
+footer .socials{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    align-items: right;
+}
+ footer .socials img{
+   
+    width: 50px;
+      height: 50px;
+      margin: auto;
+ 	 display: center;
+  	justify-content: center;
+}
+footer .socials a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.6s ease;
+    padding: 10px;
+}
+footer .socials a:hover{
+    color: red;
+    padding-right: 16px;
+}
+/*-----header-----*/
+.cvmain{
+    position: absolute;
+    align-items: center;
+    margin: 20px;
+    top: 15%;
+    left: 10%;
+    border-radius: 25px;
+}
+.cvmain img{
+    width: 500px;
+    height: 500px;
+    align-items: left;
+    border-radius: 30px;
+    
+}
+
+.headingcv{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    max-width: 500px;
+    max-height: 15%;
+    
+}
+.headingcv h1{
+    text-align: center;
+    color: #fff;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.headingcv p{
+    color: #fff;
+    justify-content: center;
+}

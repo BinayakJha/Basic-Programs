@@ -1,0 +1,154 @@
+/*-----external css-----*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	min-height: 500px;
+	width: 100%;
+    background-image: url('images/first2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+/*-----navigation-----*/
+
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+nav img{
+	width: 150px;
+}
+.nav-links{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{ 
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.nav-links ul li a:hover {
+	border: 1px solid white;
+	background: grey;
+	transition: 1s;
+}
+
+
+.text{
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text h1{
+	font-size: 62px;
+}
+.text p{
+	margin: 20px 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
+
+.abc{
+	display: inline-block;
+	text-decoration: none;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 34px;
+	font-size: 13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+
+}
+.abc ul {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.abc ul  b{ 
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+.abc:hover {
+	border: 1px solid #f44336;
+	background: #f44336;
+	transition: 1s;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
+/*-----------------------------divisions-------------------------*/
+.course{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+
+}
+h1{
+	font-size: 36px;
+	font-weight: 600;
+}
+p{
+	color: #777;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+
+}
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-between;
+
+}
+.course-col{
+	flex-basis: 31%;
+	background: #fff3f3;
+	border-radius: 30px;
+	margin-bottom: 5%;
+	padding: 20px 20px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	overflow: hidden;
+}
+h3{
+	text-align: center;
+	font-weight: 600;
+	margin: 10px 0; 
+}
+.course-col:hover{
+	box-shadow: 0 0 20px 0px ;
+	/*-----sldier image s-----*/
+
+}
+.slider {
+      width: 80%;
+      height: 200px;
+      margin: 20px auto;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 5px 5px 10px grey;
+      } 
