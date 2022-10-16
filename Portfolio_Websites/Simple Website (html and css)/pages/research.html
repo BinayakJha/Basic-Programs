@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>research</title>
+<!----internal css------->
+	<style type="text/css">
+		*
+		{
+			margin: 0px auto;
+		}
+		/*-----navigation-----*/
+		.bg_image
+		{
+			background-image: url('images/first2.jpg');
+		}
+		.list_style
+		{
+			display: inline;
+			font-family: 'Roboto';
+			font-size: 20px;
+			margin-right: 30px;
+		}
+		.list_a_style
+		{
+		 text-decoration: none;
+		 padding-left: 15px;
+		 padding-right:15px;
+		 color: #FFFFFF;
+		 border: 1px solid white;
+		 background-color: #C3C3E4;
+		}
+		.selected_list_a_style
+		{
+			text-decoration: none;
+		 padding-left: 15px;
+		 padding-right:15px;
+		 color: #FFFFFF;
+		 border: 1px solid #FFFFFF;
+		 background-color: #C3C3E4;
+		}
+		
+		.list_a_style2
+		{
+		 text-decoration: none;
+		 padding-left: 15px;
+		 padding-right:15px;
+		 color: #FFFFFF;
+		 background-color: #000000;
+		}
+
+
+    img 
+    {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+nav img{
+	width: 150px;
+}
+.nav-links ul li{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{ 
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+}
+.nav-links1 ul li{
+	flex: 1;
+	
+}
+.nav-links1 ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: center;
+}
+.nav-links1 ul li a{ 
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.nav-links ul li a:hover {
+	border: 1px solid white;
+	background: grey;
+	transition: 1s;
+}
+.nav-links1 ul li a:hover {
+	border: 1px solid white;
+	background: grey;
+	transition: 1s;
+}
+		/*-----image slider-----*/
+		.slider {
+      width: 90%;
+      height: 450px;
+      margin: 20px auto;
+      box-sizing: border-box;
+      overflow: hidden;
+      box-shadow: 5px 5px 10px grey;
+    }
+
+.header {
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+
+	</style>
+}
+</head>
+<body class="bg_image">
+<div>
+			<!--creating a navigation bar--->
+			
+			<nav>
+		<a href="website.html"><img src="images/logo.jpg"></a>
+		<div class="nav-links">
+			<ul>
+				<li><a href="C:\Users\shyam\OneDrive\Desktop\FINAL\index.html">HOME</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="research.html" >RESEARCH</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!------heading--->
+	<div class="header">
+  <h2>RESEARCH OF WEBSITE</h2>
+	</div>
+<!---slideshow------>
+	<div class="slider">
+
+    <div id="img">
+      <img src="images/1.jpg">
+    </div>
+
+  </div>
+
+  <script>
+
+    var images = ['images/pp.jpg', 'images/ppp.jpg', 'images/p.jpg', 'images/pp.png', 'images/pppp.jpg'];
+
+    var x = 0;
+
+    var imgs = document.getElementById('img');
+
+    setInterval(slider, 3000);
+
+
+    function slider() {
+
+      if (x < images.length) {
+        x = x + 1;
+      } else {
+        x = 1;
+      }
+
+
+      imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+    }
+
+
+  </script>
+
+		<!-- -------------RESEARCH PAGE---------- -->
+		<main >
+<!----inline css------->
+		<div style="background-color: #fff3f3; width: 80%; height: 100%; margin: 20px auto; overflow: hidden; text-align: center; background: transparent;">
+			<br>
+			<h2>MY NAVIGATION BAR</h2>
+      		<br>
+      		<img src="images/research2.png" >
+      		<br>
+      		<br>
+      		</div>
+      		<div style="background-color: #fff3f3; width: 80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center; background: transparent;">
+			<br>
+			<h2>SOFT BENZ NAVIGATION BAR</h2>
+      		<br>
+      		<a href="https://www.softbenz.com"><img src="images/research1.png" alt="research1"></a>
+      		<br>
+      		<br>
+			</div>
+			<div style=" background: transparent; width: 80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center;">
+			<br>
+			<h2>MY HOMEPAGE</h2>
+      		<br>
+      		<img src="images/11.png" >
+      		<br>
+      		<br>
+			</div>
+			<div style=" background: transparent; width:80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center;">
+			<br>
+			<h2>ALL BIRDS HOMEPAGE</h2>
+      		<br>
+      		<a href="https://www.allbirds.com"><img src="images/22.png" alt="22"></a>
+      		<br>
+      		<br>
+			</div>
+		<div style=" background: transparent; width: 80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center;">
+			<br>
+			<h2> MY RESEARCH SLIDESHOW</h2>
+      		<br>
+      		<img src="images/33.png" >
+      		<br>
+      		<br>
+			</div>
+			<div style=" background: transparent; width: 80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center;">
+			<br>
+			<h2>SIMPLE SITE SLIDESHOW</h2>
+      		<br>
+      		<a href="https://blog.simplesite.com"><img src="images/3.png" alt="3"></a>
+      		<br>
+			</div>
+			<div style=" background: transparent; width: 80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center;">
+			<br>
+			<h2>MY BLOG</h2>
+      		<br>
+      		<img src="images/55.png" >
+      		<br>
+      		<br>
+			</div>
+			<div style=" background: transparent; width: 80%; height: 100%; margin: 20px auto; overflow: hidden;text-align: center;">
+			<br>
+			<h2>SIMPLE SITE BLOG</h2>
+      		<br>
+      		<a href="https://blog.simplesite.com"><img src="images/5.png" alt="5"></a>
+      		<br>
+      		<br>
+			</div>
+
+
+		</main>
+		<!---footer------>
+		<footer>
+			<p style="text-align: center; color: #FFFFFF; padding: 15px;font-family: 'arial';overflow: hidden;"> &copy; Copyright | Shambhavi Shah</p>
+			<nav>
+		<a href="index.html"></a>
+		<div class="nav-links1">
+			<ul>
+				<li><a href="C:\Users\shyam\OneDrive\Desktop\FINAL\index.html">HOME</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="research.html" >RESEARCH</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+
+	</nav>
+		</footer>
+
+</div>
+</body>
+</html>
+<!----
+
+			background-color: #FFFFFF;
+			color: #C3C3E4;
+		}
+		 border-left: 2px solid #FFFFFF; border-right: 2px solid #FFFFFF; border-top: 2px solid #FFFFFF; border-bottom: 2px solid #FFFFFF;
+
+			<div style="background-color: #fff3f3; width: 48%; height: 276px; margin-top: 5px;margin-bottom: 10px; margin-left: 1%; margin-right: 0.5%; float: left;" >
+			<br>
+			<h2>VARIOUS TYPES OF TECHNOLOGY</h2>
+			<br>
+      <h5>types of technology, may 27, 2017</h5>
+      <br>
+      <p>There are different types of technology that have their own uses. construction, transportation, energy, communication are few types of technology. each of them are used in different aspects of our daily lives</p>
+			</div>
+
+			<div style="background-color: #fff3f3; width: 48%; height: 276px; margin-top: 5px;margin-bottom: 10px; margin-left: 1%; margin-right: 0.5%; float: right;" >
+				<br>
+			<h2>VARIOUS TYPES OF TECHNOLOGY</h2>
+			<br>
+      <h5>types of technology, may 27, 2017</h5>
+      <br>
+      <p>There are different types of technology that have their own uses. construction, transportation, energy, communication are few types of technology. each of them are used in different aspects of our daily lives</p>
+			</div>

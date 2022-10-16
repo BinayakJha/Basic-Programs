@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+<!---internal css------>
+	<style type="text/css">
+		*
+		{
+			margin: 0px auto;
+		}
+		.bg_image
+		{
+			background-image: url('images/first2.jpg');
+		}
+		.list_style
+		{
+			display: inline;
+			font-family: 'Roboto';
+			font-size: 20px;
+			margin-right: 30px;
+		}
+		.list_a_style
+		{
+		 text-decoration: none;
+		 padding-left: 15px;
+		 padding-right:15px;
+		 color: #FFFFFF;
+		 border: 1px solid white;
+		 background-color: #C3C3E4;
+		}
+		.selected_list_a_style
+		{
+			text-decoration: none;
+		 padding-left: 15px;
+		 padding-right:15px;
+		 color: #FFFFFF;
+		 border: 1px solid #FFFFFF;
+		 background-color: #C3C3E4;
+		}
+		
+		.list_a_style2
+		{
+		 text-decoration: none;
+		 padding-left: 15px;
+		 padding-right:15px;
+		 color: #FFFFFF;
+		 background-color: #000000;
+		}
+
+   
+    }
+ 	.center{
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+    }
+    
+/*-----navigation-----*/
+    nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+
+}
+nav img{
+	width: 150px;
+}
+.nav-links ul li{
+	flex: 1;
+	text-align: right;
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+.nav-links ul li a{ 
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	text-align: center;
+}
+
+.nav-links ul li a:hover {
+	border: 1px solid white;
+	background: grey;
+	transition: 1s;
+}
+.header {
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+.container2{
+	text-align: center;
+  	font-family: 'Roboto';
+}
+/*-----footer----*/
+footer .social{
+    position: absolute;
+    top: 90%;
+    left: 45%;
+    align-items: center;
+}
+ footer .social img{
+   
+      width: 50px;
+      height: 50px;
+      margin: auto;
+ 	  display: center;
+  	  justify-content: center;
+}
+footer .social a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s ease;
+    padding: 10px;
+}
+footer .social a:hover{
+
+    padding-right: 16px;
+}
+</style>
+</head>
+<body class="bg_image">
+<div>
+			<!--creating a navigation bar--->
+			
+			<nav>
+		<a href="website.html"><img src="images/logo.jpg"></a>
+		<div class="nav-links">
+			<ul>
+				<li><a href="C:\Users\shyam\OneDrive\Desktop\FINAL\index.html">HOME</a></li>
+				<li><a href="blog.html">BLOG</a></li>
+				<li><a href="research.html" >RESEARCH</a></li>
+				<li><a href="cv.html">CV</a></li>
+				<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!------heading----------->
+	<div class="header">
+  <h3>CONTACT US</h3>
+	</div>
+	<!-----feedback form---->
+<div class="container2">
+			<h3>Feedback Form</h3>
+			<form>
+				<br>
+				<p>First name: <input type="text" name="firstname"></p>
+				<br>
+				<p>Last name: <input type="text" name="lastname"></p>
+				<br>
+				<p>Gender: <input type="radio" name="gender" value="male" checked> Male 
+				<input type="radio" name="gender" value="female"> Female </p>
+				<br>
+				<p>e-mail: <input type="text" name="email" placeholder="abc@example" id="email"></p>
+				<br>
+				<p>Message: <br><textarea name="message" rows="10" cols="30" placeholder="Enter Message"></textarea></p>
+				<br>
+				<input type="submit" value="Send">
+				<br>
+			</form>
+		</div>
+		<br>
+		<!---footer------>
+		<footer>
+        <div class="social">
+            <a href="https://www.facebook.com"><img src="images/facebook.png" alt="facebook"></a>
+            <a href="https://www.Instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="https://www.Twitter.com"><img src="images/twitter.png" alt="Twitter"></a>
+      
+        </div>
+    </div>
+    </footer>
+</div>
+</body>
+</html>
+
+<!---
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Basic HTML 2</title>
+		<meta name="description" content="Just Basic HTML" />
+		<meta name="keywords" content="HTML" />
+		<meta name="author" content="Islington" />
+		<link rel="stylesheet" href="../css/style.css">
+		<style>
+		body {
+		

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>homepage</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body >
+<section class="header">
+<!------------------navigation ------------>
+	<nav>
+		<b href="index.html"><img src="images/logo.jpg"></b>
+		<div class="nav-links">
+			<ul>
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="pages/blog.html">BLOG</a></li>
+				<li><a href="pages/research.html" >RESEARCH</a></li>
+				<li><a href="pages/cv.html">CV</a></li>
+				<li><a href="pages/contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</nav>
+<!---------------heading------------------>
+<div class="text">
+	<h1>Modern World Technology</h1>
+	<p>The two sides to development of technology</p>
+	<div class="abc">
+	<ul>
+		<a href="pages/blog.html">learn more</a>
+	</ul>
+	</div>
+</div>
+</section>
+<!-----------------4 divisions--------------->
+<section class="course">
+	<h1>Welcome To Our Website</h1>
+	<p>few guidelines that will help </p>
+	<div class="row">
+		<div class="course-col">
+			<h3>Blog</h3>
+			<p>what is technology? why is it important in this modern era? what are its negative impacts?</p>
+		</div>
+		<div class="course-col">
+			<h3>Research</h3>
+			<p>how is it different from other websites? what are the differnet aspects comparitively?</p>
+		</div>
+		<div class="course-col">
+			<h3>CV</h3>
+			<p>get to know me! personal infomation. certifications and award achievements</p>
+		</div>
+		<div class="course-col">
+			<h3>contact</h3>
+			<p>how can you reach us. we appereciate a feedback. its all about constructive criticism</p>
+		</div>
+	</div>
+	
+</section>
+
+<!----------------------slideshow-------------------->
+<div class="slider">
+
+    <div id="img">
+      <img src="images/e.jpg">
+    </div>
+
+  </div>
+
+  <script>
+
+    var images = ['images/1.jpg', 'images/b.jpg', 'images/c.jpg', 'images/1.jpg', 'images/e.jpg'];
+
+    var x = 0;
+
+    var imgs = document.getElementById('img');
+
+    setInterval(slider, 3000);
+
+
+    function slider() {
+
+      if (x < images.length) {
+        x = x + 1;
+      } else {
+        x = 1;
+      }
+
+
+      imgs.innerHTML = "<img src=" + images[x - 1] + ">";
+
+
+    }
+
+
+  </script>
+  <!----------------------------------footer------->
+<footer>
+      <p style="text-align: center; color: black; padding: 15px;font-family: 'arial';overflow: hidden;"> &copy; Copyright | Shambhavi Shah</p>
+  </footer>
+</div>
+</body>
+</html>
